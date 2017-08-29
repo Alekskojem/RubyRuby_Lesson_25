@@ -1,0 +1,23 @@
+
+Cars
+----------
+
+CREATE TABLE Cars (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	name VARCHAR (50),
+	price INTEGER (10));
+
+
+	Add Name Price
+	----------------
+	INSERT INTO Cars (name, price)
+	VALUES ('BMW', '90000');
+
+	INSERT INTO Cars (name, price)
+	VALUES ('Audi', '80000');
+
+	INSERT INTO Cars (name, price)
+	VALUES ('VW', '75000');
+
+	INSERT INTO Cars (name, price)
+	VALUES ('VAZ-Lada', '1000');
