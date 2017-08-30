@@ -1,0 +1,27 @@
+.open user.db
+#Создаем таблицу пользователи.
+CREATE TABLE Users (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	Name VARCHAR (50),
+	Phone VARCHAR (20),
+	DateStamp VARCHAR (30),
+	Barber VARCHAR (20),
+	Color VARCHAR (20));
+
+#Создаем пользователей
+#Контактные данные
+#Дату посещения
+#Имя мастера
+#Цвет краски для покраски
+
+INSERT INTO Users (Name, Phone, DateStamp, Barber, Color)
+	VALUES ('Ivan', '234-98-85', '15.03.2017', 'Ira', 'Yellow');
+
+INSERT INTO Users (Name, Phone, DateStamp, Barber, Color)
+	VALUES ('Senya', '342-76-34', '17.03.2017', 'Vera', 'Blue');
+
+INSERT INTO Users (Name, Phone, DateStamp, Barber, Color)
+	VALUES ('Vova', '254-31-45', '18.03.2017 19:15', 'Ira', 'Blue');
+
+INSERT INTO Users (Name, Phone, DateStamp, Barber, Color)
+	VALUES ('Dima', '242-55-63', '20.03.2017 18:10', 'Vera', 'Red');
